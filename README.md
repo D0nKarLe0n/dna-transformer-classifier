@@ -42,10 +42,7 @@ Above: A heatmap of the attention weights for a sample classified as 'Healthy'. 
 * Visualization: Matplotlib, Seaborn
 
 <img width="3600" height="3000" alt="attention_heatmap_real" src="https://github.com/user-attachments/assets/097c125d-7d60-4de7-b084-34ee1308d15b" />
-### 🧠 Model Explainability: Self-Attention Visualization
-
-![Self-Attention Matrix](attention_heatmap_real.png)
-
+🧠 Model Explainability: Self-Attention Visualization
 **Analysis of the Attention Heatmap:**
 The visualization above represents the self-attention weight matrix extracted from the final Transformer encoder layer for a DNA sequence classified as **"Healthy"**. 
 
