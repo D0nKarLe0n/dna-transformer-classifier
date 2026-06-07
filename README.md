@@ -41,7 +41,7 @@ Above: A heatmap of the attention weights for a sample classified as 'Healthy'. 
 * NLP & Data Processing: Gensim (Word2Vec), NumPy, Pandas
 * Visualization: Matplotlib, Seaborn
 
-🧠 Model Explainability: Self-Attention Visualization
+### 🧠 Model Explainability: Self-Attention Visualization
 <img width="3600" height="3000" alt="attention_heatmap_real" src="https://github.com/user-attachments/assets/097c125d-7d60-4de7-b084-34ee1308d15b" />
 
 **Analysis of the Attention Heatmap:**
