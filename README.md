@@ -41,10 +41,11 @@ Above: A heatmap of the attention weights for a sample classified as 'Healthy'. 
 * NLP & Data Processing: Gensim (Word2Vec), NumPy, Pandas
 * Visualization: Matplotlib, Seaborn
 
-<img width="3600" height="3000" alt="attention_heatmap_real" src="https://github.com/user-attachments/assets/097c125d-7d60-4de7-b084-34ee1308d15b" />
 🧠 Model Explainability: Self-Attention Visualization
+<img width="3600" height="3000" alt="attention_heatmap_real" src="https://github.com/user-attachments/assets/097c125d-7d60-4de7-b084-34ee1308d15b" />
+
 **Analysis of the Attention Heatmap:**
-The visualization above represents the self-attention weight matrix extracted from the final Transformer encoder layer for a DNA sequence classified as **"Healthy"**. 
+The visualization above represents the self-attention weight matrix extracted from the final Transformer encoder layer for a DNA sequence classified as "Healthy". 
 
 * **Axes Interpretation:** The X and Y axes map the sequential 4-mer tokens (Target vs. Source).
 * **Attention Distribution:** The color gradient (from dark purple to yellow) indicates the attention weight $a_{ij}$ assigned between tokens. As expected for a "Healthy" baseline, the attention distribution is highly diffuse and uniform (weights predominantly hovering around 0.01). 
